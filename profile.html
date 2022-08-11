@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile</title>
+	<style type="text/css">
+		.container{
+			width: 1170px;
+			margin: auto;
+		}
+		.top-bar{
+			display: flex;
+			justify-content: space-between;
+		}
+		.d-block{
+			display: block;
+		}
+		.content{
+			border-top: 6px solid #000;
+			border-bottom: 6px solid #000;
+			display: block;
+			flex: 1;
+		}
+		.content h1{
+			font-size: 50px;
+			line-height: 50px;
+			font-weight: 700;
+			margin-bottom: 0px;
+		}
+		.content p{
+			font-size: 20px;
+			margin-bottom: 25px;
+		}
+		.img-box {
+    margin-left: 80px;
+}
+.img-box img{
+	    filter: grayscale(1);
+   }
+   .address-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+   .mail p,a{
+   	margin: 0px;
+   	text-align: right;
+   	color: #000;
+   	font-size: 17px;
+
+   }
+   table{
+   	width: 100%;
+   }
+   table th, td{
+   	border-bottom: 1px solid #999;
+   	padding: 10px;
+   	vertical-align: top;
+   	font-size: 17px;
+   }
+
+    table th{
+    	text-align: left;
+    	font-size: 25px;
+    }
+
+    table h5{
+    	margin: 0px 0px 5px 0px;
+    	font-size: 19px;
+    }
+
+     table tr:nth-child(3) td, table tr:nth-child(3) th{
+     	border: 0px solid #000;
+     }
+  
+	</style>
+</head>
+<body>
+ <div class="container">
+ 	<div class="top-bar">
+ 		<div class="content">
+ 			<h1>Thomas <span class="d-block">Anderson</span></h1>
+ 			<p>thomas.a@thomacompany.com</p>
+ 		</div>
+ 		<div class="img-box">
+ 			<a href=""><img src="profile.png" width="200" height=""></a>
+ 		</div>
+ 	</div>
+
+ 	<div class="address-bar">
+ 		<div class="address">
+ 			<address>
+ 				956, 31st street
+ 				<span class="d-block">NYC-1001</span>
+ 				United States
+ 			</address>
+ 		</div>
+ 		<div class="mail">
+ 			<p> <strong>Website :</strong> <a href=""> http://company.com</a> </p>
+ 			<p><strong>Phone :</strong>(92) 300 0000000</p>
+ 			<p>(456) 777 7777</p>
+ 		</div>
+ 	</div>
+
+ 	<table>
+ 		<tr>
+ 			<th>Computer Skills</th>
+ 			<td colspan="2">Microsoft word, Microsoft Exel, Microsoft Powerpoint, HTML CSS, Figma, Shopify, Wordpress,</td>
+ 		</tr>
+ 		<tr>
+ 			<th>Objective</th>
+ 			<td colspan="2">Lorum Ipsum lorum ipsum Lorum Ipsum lorum ipsum Lorum Ipsum lorum ipsum Lorum Ipsum lorum ipsum</td>
+ 		</tr>
+ 		<tr>
+ 			<th>Education</th>
+ 			<td>
+ 				<h5>Ms in Accounting</h5>
+ 				University of Washington
+ 				<span class="d-block">Lorum Ipsum lorum ipsum Lorum Ipsum </span>
+ 				<a href="">http://company.com</a>
+
+ 			</td>
+ 			<td>
+ 				<h5>Sep 1997 - Sep 2009</h5>
+ 			</td>
+ 		</tr>
+ 	</table>
+ </div>
+
+
+</body>
+</html>
